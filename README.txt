@@ -21,3 +21,9 @@ there will be logs showing in the log file for server.
 Also in the browser you should be able to see more logs by enabling log level debug(verbose)
 in case you got a question while running fe, just press Y
 
+Credentials:
+
+for demo reasons use
+
+user: user
+pass: password
