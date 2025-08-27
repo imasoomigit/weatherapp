@@ -389,3 +389,13 @@
 2025-08-27 09:45:50 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":55.42,"feels_like":54,"temp_min":55.42,"temp_max":55.42,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":20.18,"deg":307,"gust":35.84},"clouds":{"all":52},"dt":1756251884,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
 2025-08-27 09:45:50 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":55.42,"description":"broken clouds","units":"°F"}}
 2025-08-27 09:46:52 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 10:30:04 INFO: [Server] Running on http://localhost:3100
+2025-08-27 10:31:04 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 10:31:04 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 10:31:04 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 10:31:04 DEBUG: [getClientSocket] Retrieving socket for clientId: 1756254611862
+2025-08-27 10:31:04 DEBUG: [getClientSocket] Socket found: No
+2025-08-27 10:31:04 INFO: [AuthController] Login successful, generated token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTQ2NjQsImV4cCI6MTc1NjI1ODI2NH0.a_GK_16lrbY9u4HPPl6iu7wps9Xean69157TkD2ZFBc
+2025-08-27 10:31:04 INFO: [WebSocket] User connected: 1756254664477
+2025-08-27 10:31:04 INFO: [WebSocket] User disconnected: 1756254664477
+2025-08-27 10:31:04 INFO: [WebSocket] User connected: 1756254664477
