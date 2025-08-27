@@ -1,0 +1,391 @@
+2025-08-27 08:17:43 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 08:17:43 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 08:17:43 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:17:43 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:17:43 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 08:17:43 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:17:43 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:17:43 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:17:43 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 08:17:43 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 08:17:43 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:17:43 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:17:43 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:17:43 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:17:43 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 08:17:43 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 08:17:43 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 08:17:43 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:17:43 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 08:17:43 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 08:17:43 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 08:17:43 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:17:43 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:17:43 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:17:43 INFO: [Server] Running on http://localhost:undefined
+2025-08-27 08:28:09 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 08:28:09 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 08:28:09 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:28:09 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:28:09 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 08:28:09 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:28:09 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:28:09 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:28:09 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 08:28:09 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 08:28:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:09 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:28:09 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:28:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:09 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 08:28:09 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 08:28:09 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 08:28:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:09 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 08:28:09 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 08:28:09 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 08:28:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:09 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:28:09 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:28:09 INFO: [Server] Running on http://localhost:undefined
+2025-08-27 08:28:49 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 08:28:49 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 08:28:49 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:28:49 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:28:49 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 08:28:49 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:28:49 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:28:49 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:28:49 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 08:28:49 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 08:28:49 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:49 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:28:49 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:28:49 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:49 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 08:28:49 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 08:28:49 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 08:28:49 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:49 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 08:28:49 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 08:28:49 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 08:28:49 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:28:49 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:28:49 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:28:49 INFO: [Server] Running on http://localhost:undefined
+2025-08-27 08:37:00 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 08:37:00 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 08:37:00 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:37:00 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:37:00 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:37:00 DEBUG: [Middleware] Sent WebSocket error: No token provided
+2025-08-27 08:37:00 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:37:00 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 08:37:00 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 08:37:00 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 08:37:00 DEBUG: [Middleware] Sent WebSocket error: Invalid token
+2025-08-27 08:37:00 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:37:00 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 08:37:00 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 08:37:00 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 08:37:00 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:37:00 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:37:00 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:37:00 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 08:37:00 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 08:37:00 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:37:00 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:37:00 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 08:37:00 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 08:37:00 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:37:00 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 08:37:00 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:37:00 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:42:40 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 08:42:40 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 08:42:40 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 08:42:40 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:42:40 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:42:40 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 08:42:40 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 08:42:40 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:42:40 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 08:42:40 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 08:42:40 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 08:42:40 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 08:42:40 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:42:40 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:42:40 ERROR: [Middleware] Error: No token provided
+2025-08-27 08:42:40 DEBUG: [Middleware] Sent WebSocket error: No token provided
+2025-08-27 08:42:40 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:42:40 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 08:42:40 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 08:42:40 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 08:42:40 DEBUG: [Middleware] Sent WebSocket error: Invalid token
+2025-08-27 08:42:40 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:42:40 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 08:42:40 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 08:42:40 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 08:42:40 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 08:42:40 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 08:42:40 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:07:42 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 09:07:42 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 09:07:42 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 09:07:42 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:07:42 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 09:07:42 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 09:07:42 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:07:42 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 09:07:42 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 09:07:42 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:07:42 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 09:07:42 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 09:07:42 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:42 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 09:07:42 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:07:42 DEBUG: [Middleware] Sent WebSocket error: No token provided
+2025-08-27 09:07:42 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:42 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 09:07:42 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 09:07:42 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 09:07:42 DEBUG: [Middleware] Sent WebSocket error: Invalid token
+2025-08-27 09:07:42 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:42 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 09:07:42 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 09:07:42 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 09:07:42 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:42 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 09:07:42 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:07:46 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 09:07:46 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 09:07:46 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 09:07:46 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:07:46 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 09:07:46 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 09:07:46 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:07:46 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 09:07:46 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 09:07:46 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:07:46 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 09:07:46 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 09:07:46 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:46 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 09:07:46 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:07:46 DEBUG: [Middleware] Sent WebSocket error: No token provided
+2025-08-27 09:07:46 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:46 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 09:07:46 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 09:07:46 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 09:07:46 DEBUG: [Middleware] Sent WebSocket error: Invalid token
+2025-08-27 09:07:46 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:46 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 09:07:46 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 09:07:46 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 09:07:46 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:07:46 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 09:07:46 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:16:09 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 09:16:09 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 09:16:09 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 09:16:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:16:09 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 09:16:09 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:16:09 DEBUG: [Middleware] Sent WebSocket error: No token provided
+2025-08-27 09:16:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:16:09 DEBUG: [Middleware] Authorization header: Bearer invalid-token
+2025-08-27 09:16:09 DEBUG: [Middleware] Verifying token: invalid-token
+2025-08-27 09:16:09 ERROR: [Middleware] Token verification failed: Invalid token
+2025-08-27 09:16:09 DEBUG: [Middleware] Sent WebSocket error: Invalid token
+2025-08-27 09:16:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:16:09 DEBUG: [Middleware] Authorization header: Bearer valid-token
+2025-08-27 09:16:09 DEBUG: [Middleware] Verifying token: valid-token
+2025-08-27 09:16:09 DEBUG: [Middleware] Token verification successful: {"username":"user"}
+2025-08-27 09:16:09 DEBUG: [Middleware] Processing request for path: /weather
+2025-08-27 09:16:09 DEBUG: [Middleware] Authorization header: undefined
+2025-08-27 09:16:09 ERROR: [Middleware] Error: No token provided
+2025-08-27 09:16:09 INFO: [AuthController] Login successful, generated token: mock-jwt-token
+2025-08-27 09:16:09 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 09:16:09 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:16:09 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 09:16:09 INFO: [AuthController] Login request received - Username: , Password: password
+2025-08-27 09:16:09 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:16:09 DEBUG: [AuthController] Sent WebSocket error: Invalid credentials
+2025-08-27 09:16:09 INFO: [AuthController] Login request received - Username: wrong, Password: password
+2025-08-27 09:16:09 ERROR: [AuthController] Login failed: Invalid credentials
+2025-08-27 09:16:39 INFO: [Server] Running on http://localhost:undefined
+2025-08-27 09:30:15 INFO: [Server] Running on http://localhost:undefined
+2025-08-27 09:31:54 INFO: [Server] Running on http://localhost:3100
+2025-08-27 09:32:06 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 09:32:06 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 09:32:06 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 09:32:06 DEBUG: [getClientSocket] Retrieving socket for clientId: 1756251003092
+2025-08-27 09:32:07 DEBUG: [getClientSocket] Socket found: No
+2025-08-27 09:32:07 INFO: [AuthController] Login successful, generated token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk
+2025-08-27 09:32:07 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:14 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:15 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:15 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:17 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:17 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:17 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:17 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:18 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:18 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:18 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:18 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:18 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:18 INFO: [WebSocket] User connected: 1756251127008
+2025-08-27 09:32:20 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk"}
+2025-08-27 09:32:20 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk"}
+2025-08-27 09:32:20 INFO: [WebSocket] Processing weather request - Location: point cook, Units: metric, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk
+2025-08-27 09:32:20 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk
+2025-08-27 09:32:20 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:32:20 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=metric
+2025-08-27 09:32:20 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:32:20 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":12.96,"feels_like":12.17,"temp_min":12.96,"temp_max":12.96,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":9.02,"deg":307,"gust":16.02},"clouds":{"all":52},"dt":1756251140,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:32:20 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":12.96,"description":"broken clouds","units":"°C"}}
+2025-08-27 09:32:33 INFO: [WebSocket] User disconnected: 1756251127008
+2025-08-27 09:32:33 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:37 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:37 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:37 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:37 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:37 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:37 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:38 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:38 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:38 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:38 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:38 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:38 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:32:39 INFO: [WebSocket] User connected: 1756251153410
+2025-08-27 09:32:41 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk"}
+2025-08-27 09:32:41 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk"}
+2025-08-27 09:32:41 INFO: [WebSocket] Processing weather request - Location: point cook, Units: metric, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk
+2025-08-27 09:32:41 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTExMjcsImV4cCI6MTc1NjI1NDcyN30.RBcB2K3ROOTbpfXvsNcRs_uuXCsSDtsBoghZYIPDXZk
+2025-08-27 09:32:41 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:32:41 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=metric
+2025-08-27 09:32:41 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:32:41 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":12.96,"feels_like":12.17,"temp_min":12.96,"temp_max":12.96,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":9.02,"deg":307,"gust":16.02},"clouds":{"all":52},"dt":1756251140,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:32:41 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":12.96,"description":"broken clouds","units":"°C"}}
+2025-08-27 09:33:02 INFO: [WebSocket] User disconnected: 1756251153410
+2025-08-27 09:37:10 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 09:37:10 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 09:37:10 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 09:37:10 DEBUG: [getClientSocket] Retrieving socket for clientId: 1756251428979
+2025-08-27 09:37:10 DEBUG: [getClientSocket] Socket found: No
+2025-08-27 09:37:10 INFO: [AuthController] Login successful, generated token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8
+2025-08-27 09:37:10 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:23 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:23 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:23 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:23 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:23 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:23 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:24 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:24 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:24 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:24 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:24 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:24 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:37:25 INFO: [WebSocket] User connected: 1756251430678
+2025-08-27 09:37:27 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8"}
+2025-08-27 09:37:27 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8"}
+2025-08-27 09:37:27 INFO: [WebSocket] Processing weather request - Location: point cook, Units: metric, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8
+2025-08-27 09:37:27 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8
+2025-08-27 09:37:27 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:37:27 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=metric
+2025-08-27 09:37:28 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:37:28 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":13.01,"feels_like":12.22,"temp_min":13.01,"temp_max":13.01,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":9.02,"deg":307,"gust":16.02},"clouds":{"all":52},"dt":1756251448,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:37:28 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":13.01,"description":"broken clouds","units":"°C"}}
+2025-08-27 09:37:34 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8"}
+2025-08-27 09:37:34 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8"}
+2025-08-27 09:37:34 INFO: [WebSocket] Processing weather request - Location: point cook, Units: metric, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8
+2025-08-27 09:37:34 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE0MzAsImV4cCI6MTc1NjI1NTAzMH0.lahB893VpbnPSeZEVvF7mGDVxnHszUznJvDhtgqcCf8
+2025-08-27 09:37:34 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:37:34 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=metric
+2025-08-27 09:37:35 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:37:35 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":13.01,"feels_like":12.22,"temp_min":13.01,"temp_max":13.01,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":9.02,"deg":307,"gust":16.02},"clouds":{"all":52},"dt":1756251448,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:37:35 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":13.01,"description":"broken clouds","units":"°C"}}
+2025-08-27 09:45:12 INFO: [WebSocket] User disconnected: 1756251430678
+2025-08-27 09:45:12 INFO: [WebSocket] User connected: 1756251912094
+2025-08-27 09:45:14 INFO: [WebSocket] User disconnected: 1756251912094
+2025-08-27 09:45:14 INFO: [WebSocket] User connected: 1756251914303
+2025-08-27 09:45:24 INFO: [WebSocket] User disconnected: 1756251914303
+2025-08-27 09:45:25 DEBUG: [Middleware] Processing request for path: /login
+2025-08-27 09:45:25 DEBUG: [Middleware] Skipping token check for /login
+2025-08-27 09:45:25 INFO: [AuthController] Login request received - Username: user, Password: password
+2025-08-27 09:45:25 DEBUG: [getClientSocket] Retrieving socket for clientId: 1756251922391
+2025-08-27 09:45:25 DEBUG: [getClientSocket] Socket found: No
+2025-08-27 09:45:25 INFO: [AuthController] Login successful, generated token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:25 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:31 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:31 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:31 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:31 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:31 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:31 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:32 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:33 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:33 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:33 INFO: [WebSocket] User disconnected: 1756251925236
+2025-08-27 09:45:33 INFO: [WebSocket] User connected: 1756251925236
+2025-08-27 09:45:34 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI"}
+2025-08-27 09:45:34 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI"}
+2025-08-27 09:45:34 INFO: [WebSocket] Processing weather request - Location: point cook, Units: metric, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:34 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:34 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:45:34 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=metric
+2025-08-27 09:45:34 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:45:34 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":13.01,"feels_like":12.22,"temp_min":13.01,"temp_max":13.01,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":9.02,"deg":307,"gust":16.02},"clouds":{"all":52},"dt":1756251728,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:45:34 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":13.01,"description":"broken clouds","units":"°C"}}
+2025-08-27 09:45:38 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI"}
+2025-08-27 09:45:38 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"metric","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI"}
+2025-08-27 09:45:38 INFO: [WebSocket] Processing weather request - Location: point cook, Units: metric, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:38 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:38 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:45:38 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=metric
+2025-08-27 09:45:38 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:45:38 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":13.01,"feels_like":12.22,"temp_min":13.01,"temp_max":13.01,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":9.02,"deg":307,"gust":16.02},"clouds":{"all":52},"dt":1756251728,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:45:38 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":13.01,"description":"broken clouds","units":"°C"}}
+2025-08-27 09:45:50 DEBUG: [WebSocket] Received message: {"type":"weather","location":"point cook","units":"imperial","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI"}
+2025-08-27 09:45:50 DEBUG: [WebSocket] Parsed message data: {"type":"weather","location":"point cook","units":"imperial","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI"}
+2025-08-27 09:45:50 INFO: [WebSocket] Processing weather request - Location: point cook, Units: imperial, Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:50 DEBUG: [WebSocket] Verifying JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE3NTYyNTE5MjUsImV4cCI6MTc1NjI1NTUyNX0.EH-_IgMPEDWPuK2sdRELO3lV4Ampo7_EA6lGlU0E9VI
+2025-08-27 09:45:50 DEBUG: [WebSocket] JWT verification successful
+2025-08-27 09:45:50 INFO: [WebSocket] Fetching weather data from URL: https://api.openweathermap.org/data/2.5/weather?q=point%20cook,AU&appid=ce242e6f1909e3ca32395ead09817fb6&units=imperial
+2025-08-27 09:45:50 DEBUG: [WebSocket] Weather API response status: 200
+2025-08-27 09:45:50 DEBUG: [WebSocket] Weather API response data: {"coord":{"lon":144.7509,"lat":-37.9148},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":55.42,"feels_like":54,"temp_min":55.42,"temp_max":55.42,"pressure":996,"humidity":71,"sea_level":996,"grnd_level":996},"visibility":10000,"wind":{"speed":20.18,"deg":307,"gust":35.84},"clouds":{"all":52},"dt":1756251884,"sys":{"country":"AU","sunrise":1756241434,"sunset":1756281307},"timezone":36000,"id":2152819,"name":"Point Cook","cod":200}
+2025-08-27 09:45:50 DEBUG: [WebSocket] Sent response: {"success":true,"data":{"city":"Point Cook","temperature":55.42,"description":"broken clouds","units":"°F"}}
+2025-08-27 09:46:52 INFO: [WebSocket] User disconnected: 1756251925236
